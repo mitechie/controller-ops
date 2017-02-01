@@ -1,0 +1,13 @@
+name: controller-ops
+summary: Provides monitoring and operations for controllers.
+maintainer: Rick Harding <rick.harding@canonical.com>
+description: |
+  Step 1...make it build
+tags:
+  # Replace "misc" with one or more whitelisted tags from this list:
+  # https://jujucharms.com/docs/stable/authors-charm-metadata
+  - ops
+subordinate: false
+provides:
+  local-monitors:
+    interface: local-monitors
